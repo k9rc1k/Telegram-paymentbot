@@ -2,8 +2,8 @@ import random
 import telebot
 import webbrowser
 from telebot import types
-
-bot = telebot.TeleBot('7901900929:AAHhdsG4YghPDId3-qZkE4w_gObG3UjfWlE')
+#Здесь вы пишите свой токен
+bot = telebot.TeleBot('token')
 # Варианты ответов пользователю, если тот ввел непонятное боту сообщение
 answers = ['Я не понял, что ты хочешь сказать.', 'Извини, я тебя не понимаю.', 'Я не знаю такой команды.', 'Мой разработчик не говорил, что отвечать в такой ситуации... >_<']
 
